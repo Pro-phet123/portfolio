@@ -1,11 +1,33 @@
+import Navbar from "../components/Navbar";
+
 export default function Home() {
   return (
-    <main style={{ background: "#050505", color: "#fff", minHeight: "100vh" }}>
-      <div style={{ maxWidth: "1100px", margin: "0 auto", padding: "90px 24px" }}>
+    <main
+      style={{
+        background: "#050505",
+        color: "#fff",
+        minHeight: "100vh",
+      }}
+    >
+      <Navbar />
+
+      <div
+        style={{
+          maxWidth: "1100px",
+          margin: "0 auto",
+          padding: "90px 24px",
+        }}
+      >
 
         {/* HERO */}
         <section>
-          <p style={{ color: "#4ea1ff", letterSpacing: "2px", fontSize: "14px" }}>
+          <p
+            style={{
+              color: "#4ea1ff",
+              letterSpacing: "2px",
+              fontSize: "14px",
+            }}
+          >
             AI SYSTEMS • DATA SCIENCE • TELECOM ENGINEERING
           </p>
 
@@ -75,8 +97,16 @@ export default function Home() {
         </section>
 
         {/* ABOUT */}
-        <section style={{ marginTop: "100px" }}>
-          <h2 style={{ fontSize: "30px", marginBottom: "18px" }}>
+        <section
+          id="about"
+          style={{ marginTop: "100px" }}
+        >
+          <h2
+            style={{
+              fontSize: "30px",
+              marginBottom: "18px",
+            }}
+          >
             About
           </h2>
 
@@ -97,12 +127,25 @@ export default function Home() {
         </section>
 
         {/* PROJECTS */}
-        <section style={{ marginTop: "100px" }}>
-          <h2 style={{ fontSize: "30px", marginBottom: "25px" }}>
+        <section
+          id="projects"
+          style={{ marginTop: "100px" }}
+        >
+          <h2
+            style={{
+              fontSize: "30px",
+              marginBottom: "25px",
+            }}
+          >
             Selected AI Systems
           </h2>
 
-          <div style={{ display: "grid", gap: "18px" }}>
+          <div
+            style={{
+              display: "grid",
+              gap: "18px",
+            }}
+          >
 
             {/* InkApply */}
             <div style={cardStyle}>
@@ -170,12 +213,25 @@ export default function Home() {
         </section>
 
         {/* SKILLS */}
-        <section style={{ marginTop: "100px" }}>
-          <h2 style={{ fontSize: "30px", marginBottom: "18px" }}>
+        <section
+          id="skills"
+          style={{ marginTop: "100px" }}
+        >
+          <h2
+            style={{
+              fontSize: "30px",
+              marginBottom: "18px",
+            }}
+          >
             Core Expertise
           </h2>
 
-          <p style={{ color: "#bbb", lineHeight: "2" }}>
+          <p
+            style={{
+              color: "#bbb",
+              lineHeight: "2",
+            }}
+          >
             AI Systems Design • Machine Learning • Deep Learning • LLMs •
             Prompt Engineering • Data Science • Python • SQL • TensorFlow •
             Scikit-learn • Telecom Networks • RAN Optimization • Network
@@ -184,8 +240,19 @@ export default function Home() {
         </section>
 
         {/* CONTACT */}
-        <section style={{ marginTop: "100px", paddingBottom: "80px" }}>
-          <h2 style={{ fontSize: "30px", marginBottom: "18px" }}>
+        <section
+          id="contact"
+          style={{
+            marginTop: "100px",
+            paddingBottom: "80px",
+          }}
+        >
+          <h2
+            style={{
+              fontSize: "30px",
+              marginBottom: "18px",
+            }}
+          >
             Contact
           </h2>
 
