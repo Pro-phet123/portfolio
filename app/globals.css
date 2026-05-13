@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #050505;
+  color: white;
+}
+
+a {
+  transition: 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}
