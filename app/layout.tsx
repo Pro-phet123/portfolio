@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Olalemi Emmanuel | AI Systems Engineer",
+  title: "Olalemi Emmanuel | AI Engineer",
   description:
-    "AI Systems Engineer, Data Scientist, and Telecom Network Engineer Portfolio",
+    "AI Systems Engineer | Data Scientist | Telecom Engineer Portfolio",
 };
 
 export default function RootLayout({
@@ -14,9 +14,10 @@ export default function RootLayout({
       <body
         style={{
           margin: 0,
-          fontFamily:
-            "-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif",
           background: "#050505",
+          color: "#fff",
+          fontFamily:
+            "system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
         }}
       >
         {children}
